@@ -1,0 +1,114 @@
+:root {
+  --white: #ffff;
+  --black: #000000;
+  --grey: #d2d2d2;
+  --dark-grey: #232323;
+}
+body {
+  background-color: var(--white);
+  font-family: "Inter", Arial, sans-serif;
+}
+.product-card {
+  width: 450px;
+  padding: 16px;
+  border: 1px solid var(--black);
+  position: relative;
+}
+.new-product {
+  background-color: var(--dark-grey);
+  color: var(--white);
+  font-weight: 400;
+  font-size: 18px;
+  padding: 4px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  position: absolute;
+  top: 450px;
+  padding: 4px 36px;
+  left: 0px;
+}
+.image-container {
+  width: 450px;
+  text-align: center;
+  top: 0px;
+  margin-bottom: 24px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.product-name {
+  font-size: 32px;
+  line-height: 1.5px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 2px;
+}
+.product-name-type {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 4px;
+  font-weight: 380;
+}
+.product-description {
+  margin-top: 8px;
+  text-align: justify;
+  font-size: 12px;
+}
+.product-price-order-container {
+  background-color: var(--grey);
+  padding: 24px;
+  position: relative;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.product-price {
+  font-size: 24px;
+  font-weight: 350;
+}
+.add-to-card-container {
+  position: absolute;
+  right: 24px;
+  top: 19px;
+}
+.add-to-card-buttom {
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  padding: 8px 28px;
+  border: 1px solid var(--black);
+  background-color: var(--grey);
+  color: var(--dark-grey);
+  border-radius: 7px;
+}
+.reviews {
+  margin-bottom: 2px;
+}
+.star-container {
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+.fa {
+  font-size: 26px;
+}
+.product-delivery-container {
+  background-color: var(--dark-grey);
+  padding: 24px;
+  border-radius: 7px;
+  margin-bottom: 24px;
+  position: relative;
+}
+.free-returns-info {
+  color: var(--white);
+}
+.product-delivery-info {
+  color: var(--white);
+  text-decoration: underline;
+  position: absolute;
+  right: 36px;
+}
